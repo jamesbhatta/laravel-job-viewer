@@ -1,0 +1,25 @@
+{
+    "name": "jamesbhatta/laravel-job-viewer",
+    "description": "This packages makes it easy to view the jobs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manojbhatta",
+            "email": "jmsbhatta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jamesbhatta\\LaravelJobViewer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jamesbhatta\\LaravelJobViewer\\LaravelJobViewerServiceProvider"
+            ]
+        }
+    }
+}
