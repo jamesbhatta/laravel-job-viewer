@@ -20,13 +20,13 @@ composer require jamesbhatta/laravel-job-viewer
 Install via your projects' `composer.json`:
 ```json
 {
-    ...
+    . . .
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
-        "jamesbhatta/laravel-job-viewer": "0.3.*"
+        "jamesbhatta/laravel-job-viewer": "1.0.0"
     },
-    ...
+    . . .
 }
 ```
  
@@ -56,7 +56,7 @@ Once the package as been successfully pulled you will need to register the packa
  
  
 #### Configuration
-Laravel Markdown supports optional configuration.
+Laravel Job Viewer supports optional configuration.
  
 You will need to pull the configuration in you app's configuration folder to make modifications to the default configuration.  You can achieve this with the following artisan command:
  
@@ -65,16 +65,6 @@ php artisan vendor:publish
 ```
  
 The configuration file will be created at `config/laravel-job-viewer.php`.
- 
-
-Add Service Provider to `config/app.php` in providers section
-
-Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
-Add a route in your web routes file:
-
-```
-Route::get('logs', '\jamesbhatta\LaravelJobViewer\JobViewerController@index');
-```
  
  
 ## License
